@@ -5,19 +5,18 @@
     <title>Number Guesser</title>
   </head>
   <body>
-    <header>
+    <header align="center">
       <h1>Number<span> Guesser</span></h1>
     </header>
     <form class="prevent-class">
-      <input class="input-box" type="number" placeholder="       Enter your guess">
+      <input class="input-box" type="number" placeholder="Enter your guess">
         <div class="inner-col">
           <button class="guess-button button-style" disabled=true>Guess
           </button>
-          <button class="clear-button button-style" disabled=true>Clear
-          </button>
+          <input type="reset" value="Clear" class="clear-button button-style">
         </div>
     </form>
-      <p>Your last guess was</p>
+      <p class="explain-text"></p>
       <h2 class="last-guess" align="center"></h2>
       <p class="output-text"></p>
       <figure align="center">

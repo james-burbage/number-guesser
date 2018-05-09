@@ -1,24 +1,31 @@
 body {
   font-family: sans-serif;
+  padding: 0em;
 }
 
 header {
   background-color: #404041;
-  height: 4em;
+  height: 6em;
+  margin-left: 27.5%;
+  margin-top: 8%;
+  text-align: center;
+  width: 45%;
 }
 
 h1 {
   color: #ed458b;
+  font-size: 5em;
   font-weight: bold;
-  padding-top: 0.32em;
+  margin: 0px;
+  padding-top: 0.05em;
   text-align: center;
 }
 
 h2 {
-  font-size: 11em;
   color: #ed458b;
+  font-size: 9em;
   font-weight: 100;
-  padding: 0em;
+  margin: 0em;
 }
 
 span {
@@ -26,41 +33,87 @@ span {
   font-weight: 100;
 }
 
-p {
-  margin-top: 2em;
+form {
   text-align: center;
 }
 
-form {
+p {
+  color: #404041;
+  font-size: 2em;
   text-align: center;
+}
+
+p.explain-text {
+  margin-bottom: 0em;
+  margin-top: 0.5em;
+}
+
+p.output-text {
+  margin-bottom: 0.5em;
+  margin-top: 0em;
 }
 
 .inner-col {
   margin-top: 2em;
 }
 
-.button-style {
-  background-color: #D0D2D3;
-  border-radius: 14px;
-  color: white;
-  padding-left: 3.5em;
-  padding-right: 3.5em;
+.input-box {
+  font-size: 1.5em;
+  height: 2em;
+  margin-top: 1em;
   outline: none;
+  padding-left: 2em;
+  padding-right: 2em;
+  text-align: center;
+  width: 18%;
 }
 
-.input-box {
-  margin-top: 2em;
-  padding-left: 5em;
-  padding-right: 5em;
+.button-style {
+  background-color: #929497;
+  border-radius: 14px;
+  color: white;
+  font-size: 1.5em;
+  height: 2.5em;
   outline: none;
+  text-align: center;
+}
 
+.button-style:hover {
+  background-color: #EB008B;
 }
 
 .guess-button {
-  margin-right: 1em;
+  margin-right: 0.5em;
+  padding-left: 0em;
+  padding-right: 0em;
+  text-align: center;
+  width: 15%;
+}
+
+.guess-button:disabled {
+  background-color: #D0D2D3;
 }
 
 .reset-button {
-  padding-left: 9em;
-  padding-right: 9em;
+  height: 2.5em;
+  padding-left: 0em;
+  padding-right: 0em;
+  text-align: center;
+  width: 15%;
+  }
+
+.reset-button:disabled {
+  background-color: #D0D2D3;
+}
+
+.clear-button {
+  margin-left: 0.5em;
+  padding-left: 0em;
+  padding-right: 0em; 
+  text-align: center;
+  width: 15%;
+}
+
+.clear-button:disabled {
+  background-color: #D0D2D3;
 }
