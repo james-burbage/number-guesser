@@ -5,11 +5,12 @@ body {
 
 header {
   background-color: #404041;
-  height: 6em;
-  margin-left: 27.5%;
+  box-shadow: 10px 10px 20px black;
+  height: 6.5em;
+  margin-left: 25%;
   margin-top: 8%;
   text-align: center;
-  width: 45%;
+  width: 50%;
 }
 
 h1 {
@@ -19,6 +20,7 @@ h1 {
   margin: 0px;
   padding-top: 0.05em;
   text-align: center;
+  text-shadow: 10px 10px 10px black;
 }
 
 h2 {
@@ -49,6 +51,7 @@ p.explain-text {
 }
 
 p.output-text {
+  color: red;
   margin-bottom: 0.5em;
   margin-top: 0em;
 }
@@ -57,7 +60,52 @@ p.output-text {
   margin-top: 2em;
 }
 
+.range-min-box {
+  box-shadow: 10px 10px 20px black;
+  font-size: 1.5em;
+  height: 2em;
+  margin-right: 0.4em;
+  margin-top: 1em;
+  outline: none;
+  padding-left: 2em;
+  padding-right: 2em;
+  text-align: center;
+  width: 16%;
+}
+
+.range-max-box {
+  box-shadow: 10px 10px 20px black;
+  font-size: 1.5em;
+  height: 2em;
+  margin-left: 0.4em;
+  margin-top: 1em;
+  outline: none;
+  padding-left: 2em;
+  padding-right: 2em;
+  text-align: center;
+  width: 16%;
+}
+
+.range-submit {
+  background-color: #929497;
+  border-radius: 14px;
+  border-radius: 26px;
+  box-shadow: 10px 10px 20px black;
+  color: white;
+  font-size: 1.5em;
+  height: 2.5em;
+  margin-top: 1em;
+  outline: none;
+  text-align: center;
+  width: 15%;
+}
+
+.range-submit:hover {
+  background-color: #EB008B;
+}
+
 .input-box {
+  box-shadow: 10px 10px 20px black;
   font-size: 1.5em;
   height: 2em;
   margin-top: 1em;
@@ -70,7 +118,8 @@ p.output-text {
 
 .button-style {
   background-color: #929497;
-  border-radius: 14px;
+  border-radius: 26px;
+  box-shadow: 10px 10px 20px black;
   color: white;
   font-size: 1.5em;
   height: 2.5em;
@@ -92,6 +141,7 @@ p.output-text {
 
 .guess-button:disabled {
   background-color: #D0D2D3;
+  box-shadow: none;
 }
 
 .reset-button {
@@ -104,16 +154,38 @@ p.output-text {
 
 .reset-button:disabled {
   background-color: #D0D2D3;
+  box-shadow: none;
 }
 
 .clear-button {
+  background-color: #929497;
+  border-radius: 14px;
+  border-radius: 26px;
+  box-shadow: 10px 10px 20px black;
+  color: white;
+  font-size: 1.5em;
+  height: 2.5em;
   margin-left: 0.5em;
+  outline: none;
   padding-left: 0em;
-  padding-right: 0em; 
+  padding-right: 0em;
   text-align: center;
   width: 15%;
 }
 
+.clear-button:hover {
+  background-color: #EB008B;
+}
+
 .clear-button:disabled {
   background-color: #D0D2D3;
+  box-shadow: none;
+}
+
+.last-guess {
+  text-shadow: 20px 20px 70px black;
+}
+
+.explain-text, .output-text {
+  text-shadow: 20px 20px 50px black;
 }
