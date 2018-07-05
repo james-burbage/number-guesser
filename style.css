@@ -1,26 +1,21 @@
 body {
   font-family: sans-serif;
-  padding: 0em;
+  margin: 0;
 }
 
 header {
   background-color: #404041;
-  box-shadow: 10px 10px 20px black;
   height: 6.5em;
-  margin-left: 25%;
-  margin-top: 8%;
   text-align: center;
-  width: 50%;
 }
 
 h1 {
   color: #ed458b;
-  font-size: 5em;
-  font-weight: bold;
+  font-size: 4em;
+  font-weight: 700;
   margin: 0px;
-  padding-top: 0.05em;
+  padding-top: 0.2em;
   text-align: center;
-  text-shadow: 10px 10px 10px black;
 }
 
 h2 {
@@ -28,11 +23,12 @@ h2 {
   font-size: 9em;
   font-weight: 100;
   margin: 0em;
+  text-align: center;
 }
 
 span {
   color: #FFFFFF;
-  font-weight: 100;
+  font-weight: 300;
 }
 
 form {
@@ -60,43 +56,21 @@ p.output-text {
   margin-top: 2em;
 }
 
-.range-min-box {
-  box-shadow: 10px 10px 20px black;
+.input-fields {
+  font-weight: 300;
   font-size: 1.5em;
+  color: #d0d2d3;
   height: 2em;
-  margin-right: 0.4em;
-  margin-top: 1em;
+  margin: 2em 0.4em 0 0.4em;
   outline: none;
-  padding-left: 2em;
-  padding-right: 2em;
-  text-align: center;
-  width: 16%;
-}
-
-.range-max-box {
-  box-shadow: 10px 10px 20px black;
-  font-size: 1.5em;
-  height: 2em;
-  margin-left: 0.4em;
-  margin-top: 1em;
-  outline: none;
-  padding-left: 2em;
-  padding-right: 2em;
-  text-align: center;
-  width: 16%;
+  padding: 0 2em 0 0.4em;
+  text-align: left;
+  width: 25%;
 }
 
 .range-submit {
-  background-color: #929497;
-  border-radius: 14px;
-  border-radius: 26px;
-  box-shadow: 10px 10px 20px black;
-  color: white;
-  font-size: 1.5em;
-  height: 2.5em;
-  margin-top: 1em;
-  outline: none;
-  text-align: center;
+  display: block;
+  margin: 3rem auto;
   width: 15%;
 }
 
@@ -104,24 +78,17 @@ p.output-text {
   background-color: #EB008B;
 }
 
-.input-box {
-  box-shadow: 10px 10px 20px black;
-  font-size: 1.5em;
-  height: 2em;
-  margin-top: 1em;
-  outline: none;
-  padding-left: 2em;
-  padding-right: 2em;
-  text-align: center;
-  width: 18%;
+.guess-input {
+  display: block;
+  margin: 2.5rem auto;
 }
 
 .button-style {
+  font-weight: 300;
   background-color: #929497;
   border-radius: 26px;
-  box-shadow: 10px 10px 20px black;
   color: white;
-  font-size: 1.5em;
+  font-size: 1.1em;
   height: 2.5em;
   outline: none;
   text-align: center;
@@ -132,40 +99,26 @@ p.output-text {
 }
 
 .guess-button {
-  margin-right: 0.5em;
-  padding-left: 0em;
-  padding-right: 0em;
+  display: inline-block;
+  margin: 1rem 0 0 1rem;
   text-align: center;
   width: 15%;
 }
 
 .guess-button:disabled {
   background-color: #D0D2D3;
-  box-shadow: none;
-}
-
-.reset-button {
-  height: 2.5em;
-  padding-left: 0em;
-  padding-right: 0em;
-  text-align: center;
-  width: 15%;
-  }
-
-.reset-button:disabled {
-  background-color: #D0D2D3;
-  box-shadow: none;
 }
 
 .clear-button {
+  display: inline-block;
+  font-weight: 300;
   background-color: #929497;
   border-radius: 14px;
   border-radius: 26px;
-  box-shadow: 10px 10px 20px black;
   color: white;
-  font-size: 1.5em;
+  font-size: 1.1em;
   height: 2.5em;
-  margin-left: 0.5em;
+  margin: 1rem 1rem;
   outline: none;
   padding-left: 0em;
   padding-right: 0em;
@@ -179,13 +132,17 @@ p.output-text {
 
 .clear-button:disabled {
   background-color: #D0D2D3;
-  box-shadow: none;
 }
 
-.last-guess {
-  text-shadow: 20px 20px 70px black;
-}
 
-.explain-text, .output-text {
-  text-shadow: 20px 20px 50px black;
+.reset-button {
+  height: 2.5em;
+  padding-left: 0em;
+  padding-right: 0em;
+  text-align: center;
+  width: 15%;
+  }
+
+.reset-button:disabled {
+  background-color: #D0D2D3;
 }

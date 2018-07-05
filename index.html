@@ -4,31 +4,25 @@
     <link rel="stylesheet" type="text/css" href="style.css">
     <title>Number Guesser</title>
   </head>
-  <body>
-    <header align="center">
-      <h1>Number<span> Guesser</span></h1>
-    </header>
-    <form>
-      <input class="range-min-box" type="number" placeholder="Type Your Low Number">
-      <input class="range-max-box" type="number" placeholder="Type Your High Number">
-    <figure>
-      <input class="range-submit" type="submit" value="Submit">
-    </figure>
-    </form>
-    <form class="prevent-class">
-      <input class="input-box" type="number" placeholder="Guess my number 0 - 100!">
-        <div class="inner-col">
-          <button class="guess-button button-style" disabled=true>Guess
-          </button>
-          <input type="reset" value="Clear" class="clear-button" disabled=true">
-        </div>
-    </form>
-      <p class="explain-text"></p>
-      <h2 class="last-guess" align="center"></h2>
-      <p class="output-text"></p>
-      <figure align="center">
-        <button class="reset-button button-style" disabled=true>Reset</button>
-      </figure>
+<body>
+  <header>
+    <h1>Number<span> Guesser</span></h1>
+  </header>
+  <form>
+    <input class="range-min-box input-fields" type="number" placeholder="Enter your low number">
+    <input class="range-max-box input-fields" type="number" placeholder="Enter your high number">
+    <input class="range-submit button-style" type="submit" value="Submit">
+    <input class="guess-input input-fields" type="number" placeholder="Enter your guess">
+    <button class="guess-button button-style" disabled=true>Guess
+    </button>
+    <input type="reset" value="Clear" class="clear-button" disabled=true">
+  </form>
+  <p class="explain-text"></p>
+  <h2 class="last-guess"></h2>
+  <p class="output-text"></p>
+  <form align="center">
+    <button class="reset-button button-style" disabled=true>Reset</button>
+  </form>
     <script type="text/javascript" src="script.js"></script>
   </body>
 </html>
