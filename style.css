@@ -13,7 +13,7 @@ h1 {
   color: #ed458b;
   font-size: 4em;
   font-weight: 700;
-  margin: 0px;
+  margin: 0;
   padding-top: 0.2em;
   text-align: center;
 }
@@ -27,7 +27,7 @@ h2 {
   color: #ed458b;
   font-size: 9em;
   font-weight: 100;
-  margin: 0em;
+  margin: 0;
   text-align: center;
 }
 
@@ -42,14 +42,12 @@ p {
 }
 
 p.explain-text {
-  margin-bottom: 0em;
   margin-top: 0.5em;
 }
 
 p.output-text {
   color: red;
   margin-bottom: 0.5em;
-  margin-top: 0em;
 }
 
 .input-fields {

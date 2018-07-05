@@ -18,6 +18,7 @@ resetButton.addEventListener("click", resetGame);
 function buttonsEnable() {
   guessButton.disabled = false;
   resetButton.disabled = false;
+  rangeSubmit.disabled = false;
   clearInput();
 }
 
